@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Markdown Portfolio Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Marked.js CDN for Markdown parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="theme-light">
+  <header class="header">
+    <h1>Markdown Portfolio Generator</h1>
+    <div class="controls">
+      <label for="themeSelect">Theme:</label>
+      <select id="themeSelect">
+        <option value="theme-light">Light</option>
+        <option value="theme-dark">Dark</option>
+        <option value="theme-modern">Modern</option>
+      </select>
+      <button id="downloadBtn">Download HTML</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="editor-section">
+      <h2>Markdown Input</h2>
+      <textarea id="markdownInput"></textarea>
+    </section>
+
+    <section class="preview-section">
+      <h2>Portfolio Preview</h2>
+      <div id="preview" class="portfolio-preview">
+        <!-- Rendered HTML goes here -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Manohar | Built with ❤️ using HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
