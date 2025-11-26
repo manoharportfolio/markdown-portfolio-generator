@@ -33,18 +33,12 @@ Technologies Used
 *   Marked.js (CDN version)
     
 
-Project Structure
------------------
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   markdown-portfolio/  ├── index.html        # Main page and layout  ├── style.css         # Styling and themes  └── script.js         # Logic, live preview, theme switching, download feature   `
-
 How to Run the Project
 ----------------------
 
 1.  Clone the repository:
     
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone [https://github.com/manoharportfolio/markdown-portfolio-generator.git](https://github.com/manoharportfolio/markdown-portfolio-generator.git)   `
+`   git clone [https://github.com/manoharportfolio/markdown-portfolio-generator.git](https://github.com/manoharportfolio/markdown-portfolio-generator.git)   `
 
 1.  Open the index.html file in any browser.
     
